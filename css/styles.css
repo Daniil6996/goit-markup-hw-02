@@ -139,3 +139,38 @@ span {
   text-decoration: none;
   list-style-type: none;
 }
+
+/* -----porfolio------- */
+.hidden {
+  opacity: 0;
+}
+
+.main-button {
+  font-family: "Roboto", sans-serif;
+  height: 38px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+}
+.main-button:focus,
+.main-button:hover {
+  background-color: #2196f3;
+}
+
+.portfolio-img {
+  width: 370px;
+}
+.portfolio-list {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
