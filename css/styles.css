@@ -4,7 +4,9 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
 }
-/* header */
+
+/* studio */
+
 .header {
   width: 1600px;
   left: 0px;
@@ -18,9 +20,11 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+
 span {
   color: #2196f3;
 }
+
 .site-nav {
   font-weight: 500;
   font-size: 14px;
@@ -28,10 +32,12 @@ span {
   letter-spacing: 0.02em;
   color: #212121;
 }
+
 .site-nav:hover,
 .site-nav:focus {
   color: #2196f3;
 }
+
 .link {
   font-weight: 500;
   font-size: 14px;
@@ -45,12 +51,12 @@ span {
   color: #2196f3;
 }
 
-/* section */
 .section-title {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -65,21 +71,21 @@ span {
   left: 0px;
   top: 80px;
 }
+
 .button-hero {
   font-family: "Roboto", sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  position: absolute;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
   color: #ffffff;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
 }
+
 .title {
   font-size: 14px;
   line-height: 1.14;
@@ -87,10 +93,23 @@ span {
   text-transform: uppercase;
   color: #212121;
 }
+
 .title-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.subject {
+  font-size: 36px;
+  line-height: 1.16;
+  color: #212121;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  color: #212121;
 }
 
 .section-team {
@@ -99,7 +118,13 @@ span {
   top: 1449px;
   background: #f5f4fa;
 }
-/* footer */
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+
 .footer {
   background-color: #2f303a;
   width: 1600px;
@@ -107,6 +132,7 @@ span {
   left: 0px;
   top: 2097px;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -114,18 +140,21 @@ span {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 .address {
   font-style: normal;
-  text-decoration: none;
   color: #fff;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-link {
   font-style: normal;
-  text-decoration: none;
-  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-link:focus,
@@ -145,7 +174,6 @@ span {
 
 .main-button {
   font-family: "Roboto", sans-serif;
-  height: 38px;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -154,6 +182,7 @@ span {
   background: #f5f4fa;
   cursor: pointer;
 }
+
 .main-button:focus,
 .main-button:hover {
   background-color: #2196f3;
@@ -162,12 +191,14 @@ span {
 .portfolio-img {
   width: 370px;
 }
+
 .portfolio-list {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
+
 .portfolio-description {
   font-size: 16px;
   line-height: 1.87;
